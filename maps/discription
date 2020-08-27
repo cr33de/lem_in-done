@@ -1,0 +1,13 @@
+3       <- Numberof ants
+##start <- indicate the starting point
+##end   <- indicate the ending point/the end
+S 0 0   <- format room 'NAME X Y'
+S-T     <- link betwen two rooms (undircted graph)
+^D      <- end
+
+key
+## <- lines that are commands
+Lx-y
+L <- 
+x <- Ants numbers (from 1 to number of ants)
+y <- Rooms names
